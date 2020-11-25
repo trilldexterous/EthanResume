@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------------------------------------------------- Colours*/
 
@@ -17,11 +17,71 @@
 
 /*-------------------------------------------------- Heading*/
 
+header {
+margin: 0;
+background:rgba(0, 0, 0, 0.7)
+}
 
 .name {
    font-family: "Exo", sans-serif;
-   font-weight: 100px;
-   font-size: 32px;
-   margin-top: 40px;
-   color: rgb(243, 207, 6);
+   font-weight: 300;
+   font-size: 24px;
+   margin-top: 0px;
+   margin-left: 20px;
+   color: #ffffff;
+}
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+  
+}
+
+.menucontainer {
+  font-size: 0;
+}
+
+#nav {
+  margin: 0; 
+}
+
+#nav li {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.menuitem {
+   margin-top: 30px;
+   margin-bottom: 20px;
+   height: 10px;
+   text-align: center;
+   padding: 4;
+}
+
+.menuitem a {
+   width: 100%;
+   text-decoration: none;
+   color: #fff;
+}
+
+.menuitem a:hover {
+   color: #ffd901fa;
+   text-decoration: underline;
+ }
+
+ /*-------------------------------------------------------- Body*/
+
+.container {
+ position: absolute;
+ left: 0;
+ top: 0;
+ height: 100%;
+ width: 100%;
+}
+
+.hero-image {
+    height: 450px;
+    width: 1024px;
+    background: url('../images/mac-keyboard.jpg') no-repeat center center; 
 }
