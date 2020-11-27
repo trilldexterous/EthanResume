@@ -49,6 +49,7 @@ background:rgba(0, 0, 0, 0.8)
   font-weight: 400;
   padding: 0;
   display: inline-block;
+  z-index: 1;
 }
 
 .menuitem {
@@ -83,6 +84,22 @@ body {
     background: url('../images/mac-keyboard.jpg') no-repeat center center; 
 }
 
+ /*---------------------------------------------------------------- Body*/
+
+.avatar {
+    vertical-align: middle;
+    height: 185px;
+    width: 185px;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 50%;
+    border: solid 8px  rgba(48, 46, 46, 0.8) ;
+    background: url('../images/profile-pic.jpg"') no-repeat center center;
+    margin-top: 150px;
+    opacity: 0.8;
+}
+
+
 /*---------------------------------------------------------------- Footer*/
 
 footer {
@@ -112,4 +129,31 @@ i.fa.fa-download {
 
 i.fa.fa-download:hover {
     color: #ffd901fa;
+}
+
+/*---------------------------------------------------------------- Contact Footer*/
+
+h5.uppercase.general-sub-2 {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 1.0rem;
+    margin-top: 15px;
+    font-weight: 200;
+}
+
+.social-links li a i {
+    padding: 0 8px;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color:  #ffd901fa;
+    padding: 0;
 }
