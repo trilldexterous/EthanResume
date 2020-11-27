@@ -16,7 +16,10 @@ text-align: center;
 
 header {
 margin: 0;
-background:rgba(0, 0, 0, 0.8)
+background:rgba(0, 0, 0, 0.8);
+position: fixed;
+width: 100vw;
+z-index: 1000;
 }
 
 .name {
@@ -39,6 +42,10 @@ background:rgba(0, 0, 0, 0.8)
   font-size: 0;
 }
 
+#nav-wrapper {
+    z-index: 10000;
+}
+
 #nav {
   margin: 0; 
 }
@@ -48,8 +55,7 @@ background:rgba(0, 0, 0, 0.8)
   font-size: 14px;
   font-weight: 400;
   padding: 0;
-  display: inline-block;
-  z-index: 1;
+
 }
 
 .menuitem {
@@ -71,7 +77,7 @@ background:rgba(0, 0, 0, 0.8)
    text-decoration: underline;
  }
 
- /*---------------------------------------------------------------- Body*/
+ /*---------------------------------------------------------------- Body Background*/
 
 body {
    background-color: black; 
@@ -82,21 +88,43 @@ body {
     height: 400px;
     width: 100%;
     background: url('../images/mac-keyboard.jpg') no-repeat center center; 
+    z-index: -10;
 }
 
- /*---------------------------------------------------------------- Body*/
+/*---------------------------------------------------------------- Body*/
 
 .avatar {
     vertical-align: middle;
     height: 185px;
     width: 185px;
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
     border-radius: 50%;
-    border: solid 8px  rgba(48, 46, 46, 0.8) ;
-    background: url('../images/profile-pic.jpg"') no-repeat center center;
+    border: solid 8px rgba(48, 46, 46, 0.8);
+    background: url('../images/profile-pic.jpg') no-repeat center center;
     margin-top: 150px;
     opacity: 0.8;
+}
+
+#name {
+    z-index: 1000;
+    color: #ffffff;
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+#description {
+    color: rgba(48, 46, 46, 1.0);
+    font-family: "Exo", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+#profile-page {
+    font-size: 22px;
 }
 
 
@@ -157,3 +185,4 @@ h5.uppercase.general-sub-2 {
     color:  #ffd901fa;
     padding: 0;
 }
+
