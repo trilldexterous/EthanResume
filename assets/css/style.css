@@ -9,26 +9,25 @@
 
 /*-------------------------------------------------- Special paddings/margins/text*/
 
-
-
-
-
-
-
+* {
+text-align: center;
+}
 /*-------------------------------------------------- Heading*/
 
 header {
 margin: 0;
-background:rgba(0, 0, 0, 0.7)
+background:rgba(0, 0, 0, 0.8)
 }
 
 .name {
    font-family: "Exo", sans-serif;
    font-weight: 300;
    font-size: 24px;
-   margin-top: 0px;
+   margin-top: 20px;
    margin-left: 20px;
+   margin-bottom: 20px;
    color: #ffffff;
+   float: left;
 }
 
 .list-inline-item:not(:last-child) {
@@ -49,6 +48,7 @@ background:rgba(0, 0, 0, 0.7)
   font-size: 14px;
   font-weight: 400;
   padding: 0;
+  display: inline-block;
 }
 
 .menuitem {
@@ -56,12 +56,12 @@ background:rgba(0, 0, 0, 0.7)
    margin-bottom: 20px;
    height: 10px;
    text-align: center;
-   padding: 4;
+   padding: 5px;
 }
 
 .menuitem a {
    width: 100%;
-   text-decoration: none;
+   text-decoration:  none;
    color: #fff;
 }
 
@@ -70,18 +70,46 @@ background:rgba(0, 0, 0, 0.7)
    text-decoration: underline;
  }
 
- /*-------------------------------------------------------- Body*/
+ /*---------------------------------------------------------------- Body*/
 
-.container {
- position: absolute;
- left: 0;
- top: 0;
- height: 100%;
- width: 100%;
+body {
+   background-color: black; 
 }
 
 .hero-image {
-    height: 450px;
-    width: 1024px;
+    position: absolute;
+    height: 400px;
+    width: 100%;
     background: url('../images/mac-keyboard.jpg') no-repeat center center; 
+}
+
+/*---------------------------------------------------------------- Footer*/
+
+footer {
+    position: fixed;
+    background-color: rgba(48, 46, 46, 0.2);
+    color: #ffffff;
+    bottom: 0;
+    margin-top: 0;
+    min-height: 80px;
+    
+}
+
+h5.uppercase.general-sub {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 1.0rem;
+    margin-top: 15px;
+    font-weight: 200; 
+}
+
+
+i.fa.fa-download {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+i.fa.fa-download:hover {
+    color: #ffd901fa;
 }
