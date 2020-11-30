@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------------------------------------------------- Colours*/
 
@@ -12,6 +12,11 @@
 * {
 text-align: center;
 }
+
+.uppercase {
+ text-transform: uppercase;
+}
+
 /*-------------------------------------------------- Heading*/
 
 header {
@@ -51,9 +56,9 @@ z-index: 1000;
 }
 
 #nav li {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 200;
   padding: 0;
 
 }
@@ -73,7 +78,7 @@ z-index: 1000;
 }
 
 .menuitem a:hover {
-   color: #ffd901fa;
+   color: yellow;
    text-decoration: underline;
  }
 
@@ -81,6 +86,7 @@ z-index: 1000;
 
 body {
    background-color: black; 
+   text-transform: "Poppins", sans-serif;
 }
 
 .hero-image {
@@ -89,6 +95,10 @@ body {
     width: 100%;
     background: url('../images/mac-keyboard.jpg') no-repeat center center; 
     z-index: -10;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*---------------------------------------------------------------- Body*/
@@ -111,7 +121,7 @@ body {
     color: #ffffff;
     font-family: "Exo", sans-serif;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 12px;
 }
 
@@ -128,10 +138,59 @@ body {
 }
 
 
-/*---------------------------------------------------------------- Footer*/
+/*----------------------------------------------------------------------- About Me*/
+
+.about-me-heading {
+    
+    font-style: "Exo", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: #ffffff;
+    margin-top: 90px;
+}
+
+.about-me-heading i {
+    color: rgba(48, 46, 46, 1.0);
+    font-size: 26px;
+    margin-left: 6px;
+    margin-bottom: 3px;
+}
+
+.about-me-text p {
+    font-size: 14px;
+    font-weight: 200;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+/*----------------------------------------------------------------------- Personal Details*/
+
+.personal-details {
+    color: #ffffff;
+    font-size: 24px;
+    font-style: "Exo", sans-serif;
+    font-weight: 200;
+    margin-top
+}
+
+/*------------------------------------------------------------------ Block Dividers*/
+
+.block-divider {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50px;
+    height: 2px;
+    border: 0;
+    background-color: #ffd901fa;
+}
+
+/*------------------------------------------------------------------ Footer*/
 
 footer {
-    position: fixed;
+    position: static;
     background-color: rgba(48, 46, 46, 0.2);
     color: #ffffff;
     bottom: 0;
@@ -156,7 +215,7 @@ i.fa.fa-download {
 }
 
 i.fa.fa-download:hover {
-    color: #ffd901fa;
+    color: yellow;
 }
 
 /*---------------------------------------------------------------- Contact Footer*/
@@ -182,7 +241,7 @@ h5.uppercase.general-sub-2 {
 }
 
 .social-links li a i:hover {
-    color:  #ffd901fa;
+    color:  yellow;
     padding: 0;
 }
 
