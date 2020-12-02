@@ -216,6 +216,11 @@ body {
 }
 
 
+.personal-inline-block {
+    display: inline-block;
+    min-width: 13vw;
+}
+
 
 
 
