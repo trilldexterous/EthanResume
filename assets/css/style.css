@@ -294,6 +294,11 @@ body {
     background-color: #ffd901fa;
 }
 
+.block-divider.progress-bar {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
 
 /*------------------------------------------------------------------ Footer*/
 
@@ -382,70 +387,63 @@ h5.uppercase.general-sub-2 {
 
 /*----------------------------------------------------------------Resume Page*/
 
+.my-skills-heading {
+    margin-top: 12rem;
+    font-family: "Exo", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 200;
 
-
-.donut-size {
-    font-size: 12em;
 }
 
-.pie-wrapper {
-    position: relative;
-    width: 1em;
-    height: 1em;
-    margin: 0px auto;
-}    
-    
-.pie {
+.progress {
+   position: relative;
+   height: 25px;
+   margin-bottom: 15px;
+   margin-top: 20px;
+}
+
+.progress-type {
     position: absolute;
-    top: 0px;
+    color: #000000;
+    font-size: 12px;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
     left: 0px;
-    width: 100%;
-    height: 100%;
-    clip: rect(0, 1em, 1em, 0.5em);
-}   
+}
 
-.half-circle {
+.progress-type2 {
     position: absolute;
-    top: 0px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
     left: 0px;
-    width: 100%;
-    height: 100%;
-    border: 0.1em solid yellow;
-    border-radius: 50%;
-    clip: rect(0em, 0.5em, 1em, 0em);
-}   
-
-.right-side {
-    transform: rotate(0deg);
-}  
-
-.label {
-   position: absolute;
-   top: 0.52em;
-   right: 0.4em;
-   bottom: 0.4em;
-   left: 0.4em;
-   display: block;
-   background: none;
-   border-radius: 50%;
-   color: yellow;
-   font-size: 0.25em;
-   line-height: 2.6em;
-   text-align: center;
-   cursor: default;
-   z-index: 2;
+    margin-bottom: 20px;
 }
-    
-.smaller {
-   padding-bottom: 20px;
-   color: yellow;
-   font-size: .45em;
-   vertical-align: super;
+
+.front-end-heading {
+    font-family: "Exo", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: #ffffff;
+    margin-top: 10rem;
 }
-    
-.shadow {
-    width: 100%;
-    height: 100%;
-    border: 0.1em solid #777777;
-    border-radius: 50%
+
+.front-end-heading i {
+    color: rgba(48, 46, 46, 1.0);
+    font-size: 26px;
+    margin-left: 6px;
+    margin-bottom: 3px;
+}
+
+.front-end-block {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #ffffff;
+    margin-top: 1.5rem;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 1.5rem;
 }
