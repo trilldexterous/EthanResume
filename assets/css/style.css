@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*-------------------------------------------------- Colours*/
 
-
-
-
-
-
-/*-------------------------------------------------- Special paddings/margins/text*/
+/*-------------------------------------------------------------- Special paddings/margins/text*/
 
 * {
 text-align: center;
@@ -21,14 +15,15 @@ text-align: center;
     display: inline-block;
 }
 
-/*-------------------------------------------------- Heading*/
+/*------------------------------------------------------------------ Heading*/
 
 header {
-margin: 0;
-background:rgba(0, 0, 0, 0.8);
-position: fixed;
-width: 100vw;
-z-index: 1000;
+  margin: 0;
+  background:rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 10000;
+  width: 100vw;
+  margin-bottom: 0.3em;
 }
 
 .name {
@@ -42,50 +37,7 @@ z-index: 1000;
    float: left;
 }
 
-.list-inline-item:not(:last-child) {
-  margin: 0;
-  
-}
-
-.menucontainer {
-  font-size: 0;
-}
-
-#nav-wrapper {
-  z-index: 10000;
-}
-
-#nav {
-  margin: 0; 
-}
-
-#nav li {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 200;
-  padding: 0;
-
-}
-
-.menuitem {
-   margin-top: 30px;
-   margin-bottom: 20px;
-   height: 10px;
-   text-align: center;
-   padding: 5px;
-}
-
-.menuitem a {
-   width: 100%;
-   text-decoration:  none;
-   color: #fff;
-}
-
-.menuitem a:hover {
-   color: yellow;
- }
-
- /*---------------------------------------------------------------- Body Background*/
+ /*-------------------------------------------------------------------------- Body Background*/
 
 body {
    background-color: black; 
@@ -118,7 +70,7 @@ body {
     background-size: cover;
 }
 
-/*---------------------------------------------------------------- Body*/
+/*------------------------------------------------------------------------ Body*/
 
 .avatar {
     vertical-align: middle;
@@ -155,7 +107,7 @@ body {
 }
 
 
-/*----------------------------------------------------------------------- About Me*/
+/*------------------------------------------------------------------------- About Me*/
 
 
 .info-about-me {
@@ -198,7 +150,7 @@ body {
 }
 
 
-/*----------------------------------------------------------------------- Personal Details*/
+/*----------------------------------------------------------------------------- Personal Details*/
 
 .personal-details-heading {
     color: #ffffff;
@@ -233,7 +185,7 @@ body {
     min-width: 13vw;
 }
 
-/*------------------------------------------------------------------ Interests*/
+/*--------------------------------------------------------------------------------- Interests*/
 
 .interest-heading {
     color: #ffffff;
@@ -255,7 +207,7 @@ body {
 }
 
 
-/*------------------------------------------------------------------ Block Dividers*/
+/*------------------------------------------------------------------------- Block Dividers*/
 
 .block-divider {
     margin-top: 0px;
@@ -307,8 +259,12 @@ body {
     width: 25px;
 }
 
+.block-divider.form {
+    margin-top: 3.4em;
+}
 
-/*------------------------------------------------------------------ Footer*/
+
+/*------------------------------------------------------------------------------ Footer*/
 
 .footer {
     position: static;
@@ -339,7 +295,7 @@ i.fa.fa-download:hover {
     color: yellow;
 }
 
-/*---------------------------------------------------------------- Contact Footer*/
+/*------------------------------------------------------------------------- Contact Footer*/
 
 footer {
     position: static;
@@ -378,7 +334,7 @@ h5.uppercase.general-sub-2 {
     padding: 0;
 }
 
-/*------------------------------------------------------------Media Queries*/
+/*-------------------------------------------------------------------------Media Queries*/
 
 @media(min-width: 640px) and (max-width: 1040px) { 
 .about-me-text {
@@ -387,20 +343,21 @@ h5.uppercase.general-sub-2 {
      }
 }
 
-@media (min-width:640px) and (max-width: 1040px) {
-.center-form {
-        margin-left: 14em;
-        margin-right: 14em;
-        bottom: 6em;
+@media(min-width: 640px) and (max-width: 1040px) {
+#nav-wrapper {
+         margin-bottom: -5rem;
+     
      }
 }
-/*------------------------------------------------------------------Hover.css */
+
+
+/*--------------------------------------------------------------------------Hover.css */
 
 .hvr-float:before {
    margin-top: 2px;
 }
 
-/*-----------------------------------------------------------------Resume Page*/
+/*--------------------------------------------------------------------------Resume Page*/
 
 .my-skills-heading {
     margin-top: 12rem;
@@ -474,7 +431,7 @@ h5.uppercase.general-sub-2 {
     font-weight: 300;
 }
 
-/*---------------------------------------------------------------------Work History*/
+/*---------------------------------------------------------------------------Work History*/
 
 .work-history-heading {
     margin-top: 8rem;
@@ -568,7 +525,7 @@ h5.uppercase.general-sub-2 {
     margin-bottom: 30px;
 }
 
-/*---------------------------------------------------------------------Contact Page*/
+/*---------------------------------------------------------------------------Contact Page*/
 
 .contact-header {
     font-family: "Exo", sans-serif;
@@ -590,7 +547,7 @@ h5.uppercase.general-sub-2 {
     margin-bottom: 0.8rem;
     font-family: "poppins", sans-serif;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .form-control {
@@ -601,9 +558,8 @@ h5.uppercase.general-sub-2 {
 .center-form {
     position: center;
     max-width: 60%;
-    margin-left: 14rem;
-    margin-bottom: 10rem;
-    margin-right: 14rem;
+    margin: 2.4em auto;
+    margin-bottom: 9rem;
 }
 
 i.fas.fa-comments::before {
@@ -614,7 +570,7 @@ i.fas.fa-comments::before {
 }
 
 
-/*---------------------------------------------------------------- Body Background Contact*/
+/*------------------------------------------------------------------ Body Background Contact*/
 
 .hero-image.contact {
     position: absolute;
