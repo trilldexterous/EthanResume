@@ -11,38 +11,65 @@
      <title> Ethan's Resume</title>  
  </head>
 <body>
-     <div class="hero-image">
-         <header>
-             <div class="container-fluid">
-                 <div class="row no-gutters">
-                     <div class="col-md-6">
-                         <a href="#" class="col-sm-3"> 
-                             <h5 class="name">Ethan</h5>
-                         </a>
-                     </div>
-                     <div class="col-md-6">
-                         <ul id="nav" class="list-inline menucontainer">
-                             <li class="col-6 col-sm-3 list-inline-item menuitem">
-                                 <a href="#">Resume</a>
-                             </li>
-                             <li class="col-6 col-sm-3 list-inline-item menuitem">
-                                 <a href="#">Project</a>
-                             </li>
-                             <li class="col-6 col-sm-3 list-inline-item menuitem">
-                                 <a href="contact.html">Contact</a>
-                             </li>
-                             <li class="col-6 col-sm-3 list-inline-item menuitem">
-                                 <a href="#">Download</a>
-                             </li>
-                         </ul>
-                     </div>
-                 </div>  
+     <header>
+         <div id="nav-wrapper" class="container-fluid">
+             <div class="row no-gutters">
+                 <div class="col-md-6">
+                     <a href="#" class="col-sm-3"> 
+                         <h5 class="name">Ethan</h5>
+                     </a>
+                 </div>
+                 <div class="col-md-6">
+                     <ul id="nav" class="list-inline menucontainer">
+                         <li class="col-sm-3 list-inline-item menuitem">
+                             <a href="#">Resume</a>
+                         </li>
+                         <li class="col-sm-3 list-inline-item menuitem">
+                             <a href="#">Project</a>
+                         </li>
+                         <li class="col-sm-3 list-inline-item menuitem">
+                             <a href="contact.html">Contact</a>
+                         </li>
+                         <li class="col-sm-3 list-inline-item menuitem">
+                             <a href="#">Download</a>
+                         </li>
+                     </ul>
+                 </div>
              </div>  
-         </header>
+         </div>  
+     </header>
+     
+     <div class="hero-image contact">
+     
      </div>
  
  
-    <section>
+    <section class="container">
+         <div class="row">
+             <div class="col-12">
+                 <h2 class="contact-header uppercase">Contact Me</h2>
+                     <hr class="block-divider contact">
+                     <div class="row">
+                         <div class="col">
+                             <h3 class="contact-heading uppercase">Have a project idea?<i class="fas fa-comments"></i></h3>
+                             <h5 class="contact-secondary heading uppercase">Leave it here!</h5>
+                                 <hr class="block-divider contact-form">
+                                 <div class="center-form">
+                                 <form>
+                                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                                     <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+                                         <div class="form-row text-center">
+                                             <div class="col">
+                                                 <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                             </div>
+                                         </div>
+                                 </form>
+                                 </div>
+                         </div>
+                     </div>
+             </div>
+         </div>
 
      </section>
 

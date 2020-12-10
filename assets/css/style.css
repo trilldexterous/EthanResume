@@ -298,6 +298,15 @@ body {
     margin-bottom: 40px;
 }
 
+.block-divider.contact {
+    margin-top: 8px;
+    margin-bottom: 9rem;
+}
+
+.block-divider.contact-form {
+    width: 25px;
+}
+
 
 /*------------------------------------------------------------------ Footer*/
 
@@ -378,6 +387,13 @@ h5.uppercase.general-sub-2 {
      }
 }
 
+@media (min-width:640px) and (max-width: 1040px) {
+.center-form {
+        margin-left: 14em;
+        margin-right: 14em;
+        bottom: 6em;
+     }
+}
 /*------------------------------------------------------------------Hover.css */
 
 .hvr-float:before {
@@ -458,7 +474,7 @@ h5.uppercase.general-sub-2 {
     font-weight: 300;
 }
 
-/*------------------------------------------------------------------Work History*/
+/*---------------------------------------------------------------------Work History*/
 
 .work-history-heading {
     margin-top: 8rem;
@@ -551,3 +567,64 @@ h5.uppercase.general-sub-2 {
 .history-items {
     margin-bottom: 30px;
 }
+
+/*---------------------------------------------------------------------Contact Page*/
+
+.contact-header {
+    font-family: "Exo", sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    Margin-top: 12rem;
+    color: #ffffff;
+}
+
+.contact-heading {
+    margin-bottom: 1.5rem;
+    font-family: "poppins", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.contact-secondary.heading {
+    margin-bottom: 0.8rem;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.form-control {
+    text-align: left;
+    font-family: "poppins", sans-serif;
+}
+
+.center-form {
+    position: center;
+    max-width: 60%;
+    margin-left: 14rem;
+    margin-bottom: 10rem;
+    margin-right: 14rem;
+}
+
+i.fas.fa-comments::before {
+    color:  rgba(48, 46, 46, 1.0);
+    font-size: 26px;
+    margin-left: 6px;
+    margin-bottom: 3px;
+}
+
+
+/*---------------------------------------------------------------- Body Background Contact*/
+
+.hero-image.contact {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background: url('../images/mac-keyboard.jpg') no-repeat center center; 
+    z-index: -10;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
