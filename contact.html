@@ -12,31 +12,31 @@
  </head>
 <body>
      <header>
-         <div id="nav-wrapper" class="container-fluid">
-             <div class="row no-gutters">
-                 <div class="col-md-6">
-                     <a href="index.html" class="col-sm-3"> 
-                         <h5 class="name">Ethan</h5>
-                     </a>
-                 </div>
-                 <div class="col-md-6">
-                     <ul id="nav" class="list-inline menucontainer">
-                         <li class="col-sm-3 list-inline-item menuitem">
-                             <a href="resume.html" class="hvr-forward">Resume</a>
-                         </li>
-                         <li class="col-sm-3 list-inline-item menuitem">
-                             <a href="project.html" class="hvr-forward">Project</a>
-                         </li>
-                         <li class="col-sm-3 list-inline-item menuitem">
-                             <a href="contact.html" class="hvr-forward">Contact</a>
-                         </li>
-                         <li class="col-sm-3 list-inline-item menuitem">
-                             <a href="#" class="hvr-forward">Download</a>
-                         </li>
-                     </ul>
-                 </div>
-             </div>  
-         </div>  
+         <nav class="navbar navbar-expand-md navbar-dark">
+  <a class="navbar-brand" href="index.html">Ethan</a>
+  <button class="navbar-toggler  ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavdropdown" aria-controls="navbarNavdropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse ml-auto"  id="navbarNavdropdown">
+    <ul class="navbar-nav  ml-auto">
+      <li class="nav-item">
+        <a class="nav-link hvr-forward" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link hvr-forward" href="resume.html">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link hvr-forward" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link hvr-forward" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link hvr-forward" href="#">Download</a>
+      </li>
+    </ul>
+  </div>
+</nav>
      </header>
      
      <div class="hero-image contact">
@@ -63,7 +63,7 @@
                                              <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
                                              <div class="form-row text-center">
                                                  <div class="col">
-                                                 <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                                                 <button type="submit" class="btn btn-dark">Send Project Request</button>
                                                  </div>
                                              </div>
                                              <hr class="block-divider form">
