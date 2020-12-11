@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/*-------------------------------------------------------------- Special paddings/margins/text*/
+/*-------------------------------------------------------------------------- Special paddings/margins/text*/
 
 * {
 text-align: center;
@@ -15,7 +15,7 @@ text-align: center;
     display: inline-block;
 }
 
-/*------------------------------------------------------------------ Heading*/
+/*------------------------------------------------------------------------------ Heading*/
 
 header {
   margin: 0;
@@ -49,6 +49,10 @@ body {
    font-family: "Poppins", sans-serif;
 }
 
+
+
+/*----------------------------------------------------------------------- Hero Background Image*/
+
 .hero-image {
     position: absolute;
     height: 400px;
@@ -60,8 +64,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-
-/*---------------------------------------------------------------- Body Background Resume*/
 
 .hero-image.resume {
     position: absolute;
@@ -75,7 +77,31 @@ body {
     background-size: cover;
 }
 
-/*------------------------------------------------------------------------ Body*/
+.hero-image.portfolio {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background: url('../images/mac-keyboard.jpg') no-repeat center center; 
+    z-index: -10;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero-image.contact {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background: url('../images/mac-keyboard.jpg') no-repeat center center; 
+    z-index: -10;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*---------------------------------------------------------------------------------- Body*/
 
 .avatar {
     vertical-align: middle;
@@ -112,7 +138,7 @@ body {
 }
 
 
-/*------------------------------------------------------------------------- About Me*/
+/*-------------------------------------------------------------------------------- About Me*/
 
 
 .info-about-me {
@@ -212,7 +238,7 @@ body {
 }
 
 
-/*------------------------------------------------------------------------- Block Dividers*/
+/*---------------------------------------------------------------------------- Block Dividers*/
 
 .block-divider {
     margin-top: 0px;
@@ -268,8 +294,13 @@ body {
     margin-top: 3.4em;
 }
 
+block-divider.portfolio {
+    margin-top: 8px;
+    margin-bottom: 9rem;
+}
 
-/*------------------------------------------------------------------------------ Footer*/
+
+/*---------------------------------------------------------------------------------- Footer*/
 
 .footer {
     position: static;
@@ -300,7 +331,7 @@ i.fa.fa-download:hover {
     color: yellow;
 }
 
-/*------------------------------------------------------------------------- Contact Footer*/
+/*------------------------------------------------------------------------------ Contact Footer*/
 
 footer {
     position: static;
@@ -339,7 +370,7 @@ h5.uppercase.general-sub-2 {
     padding: 0;
 }
 
-/*-------------------------------------------------------------------------Media Queries*/
+/*-----------------------------------------------------------------------------Media Queries*/
 
 @media(min-width: 640px) and (max-width: 1040px) { 
 .about-me-text {
@@ -356,13 +387,13 @@ h5.uppercase.general-sub-2 {
 }
 
 
-/*--------------------------------------------------------------------------Hover.css */
+/*-----------------------------------------------------------------------------Hover.css */
 
 .hvr-float:before {
    margin-top: 2px;
 }
 
-/*--------------------------------------------------------------------------Resume Page*/
+/*----------------------------------------------------------------------------Resume Page*/
 
 .my-skills-heading {
     margin-top: 12rem;
@@ -436,7 +467,7 @@ h5.uppercase.general-sub-2 {
     font-weight: 300;
 }
 
-/*---------------------------------------------------------------------------Work History*/
+/*-------------------------------------------------------------------------------Work History*/
 
 .work-history-heading {
     margin-top: 8rem;
@@ -530,7 +561,7 @@ h5.uppercase.general-sub-2 {
     margin-bottom: 30px;
 }
 
-/*---------------------------------------------------------------------------Contact Page*/
+/*------------------------------------------------------------------------------Contact Page*/
 
 .contact-header {
     font-family: "Exo", sans-serif;
@@ -574,18 +605,16 @@ i.fas.fa-comments::before {
     margin-bottom: 3px;
 }
 
+/*----------------------------------------------------------------------- Portfolio Page*/
 
-/*------------------------------------------------------------------ Body Background Contact*/
-
-.hero-image.contact {
-    position: absolute;
-    height: 300px;
-    width: 100%;
-    background: url('../images/mac-keyboard.jpg') no-repeat center center; 
-    z-index: -10;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.my-portfolio-heading {
+    margin-top: 9rem;
+    font-family: "Exo", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 200;
 }
+
+
+
 
