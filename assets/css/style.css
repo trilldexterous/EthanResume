@@ -340,7 +340,7 @@ i.fa.fa-download:hover {
 
 footer {
     position: static;
-    background-color: rgba(48, 46, 46, 0.2);
+    background-color: rgba(48, 46, 46, 0.4);
     color: #ffffff;
     bottom: 0;
     margin-top: 0;
@@ -390,6 +390,13 @@ h5.uppercase.general-sub-2 {
      
      }
 }
+
+@media(min-height: 1366px) and (max-height: 1366px) {
+.container-fluid {
+             position: fixed;
+         
+         }
+    }
 
 
 /*-----------------------------------------------------------------------------Hover.css */
