@@ -216,6 +216,11 @@ body {
     min-width: 8vw;
 }
 
+.link-colour  {
+    color: #ffffff
+}
+
+
 /*--------------------------------------------------------------------------------- Interests*/
 
 .interest-heading {
@@ -403,6 +408,10 @@ h5.uppercase.general-sub-2 {
 
 .hvr-float:before {
    margin-top: 2px;
+}
+
+.link-colour:hover {
+    color: rgba(165, 161, 161, 0.6)
 }
 
 /*----------------------------------------------------------------------------Resume Page*/
