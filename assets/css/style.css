@@ -411,7 +411,7 @@ h5.uppercase.general-sub-2 {
 }
 
 .link-colour:hover {
-    color: rgba(165, 161, 161, 0.6)
+    color: yellow;
 }
 
 /*----------------------------------------------------------------------------Resume Page*/
