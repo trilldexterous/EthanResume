@@ -137,6 +137,20 @@ body {
     font-size: 20px;
 }
 
+.fa.fa-instagram {
+    font-size: 1.5rem;
+    margin-top: 0.8em;
+}
+
+.fa.fa-pinterest {
+    font-size: 1.5rem;
+    margin-top: 0.8em;
+}
+
+.fa.fa-linkedin {
+    font-size: 1.5rem;
+    margin-top: 0.8em;
+}
 
 /*-------------------------------------------------------------------------------- About Me*/
 
@@ -333,7 +347,7 @@ h5.uppercase.general-sub {
 
 i.fa.fa-download {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: #ffffff;
 }
 
