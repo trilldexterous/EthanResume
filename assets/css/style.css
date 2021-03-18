@@ -367,6 +367,10 @@ footer {
 }
 
 
+.fa.fa-download {
+    margin-top: 13px;
+}
+
 h5.uppercase.general-sub-2 {
     font-family: "Exo", sans-serif;
     text-align: center;
